@@ -1,0 +1,73 @@
+@import '../css/media.scss';
+@import '../css/reset.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+.form {
+    font-family: 'Roboto';
+
+    @include xs {
+        width: 100%;
+    }
+    @include sm {
+        width: 100%;
+    }
+    @include lg {
+        width: 100%;
+    }
+
+    .field {
+        display: block;
+        border-radius: 5px;
+        font-family: 'Roboto';
+        color: black;
+        font-weight: 500;
+        background-color: #f9f7f7;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        @include xs {
+            padding: 7px;
+            margin-bottom: 5px;
+            //width: 250px;
+            width: 55vw;
+            font-size: 15px;
+        }
+        @include sm {
+            //padding: 4%;
+            margin-bottom: 5px;
+            padding: 10px;
+            width: 40vw;
+        }
+        @include lg {
+            //padding: 4%;
+            padding: 10px;
+            margin-bottom: 5px;
+            width: 260px;
+        }
+    }
+    .btn-div {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .btn-ok {
+        margin-top: 10px;
+        background: linear-gradient(90deg, #f5402f, #f76d2f); /* Gradient background */
+        color: white; /* White text */
+        border: none; /* No border */
+        padding: 10px 20px; /* Padding inside the button */
+        text-align: center; /* Center text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline-block for size adjustments */
+        font-size: 16px; /* Font size */
+        border-radius: 8px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background 0.3s, transform 0.2s; /* Smooth animations */
+      }
+      
+      .btn-ok:hover {
+        background: linear-gradient(90deg, #f93726, #f85e2f); /* Darker gradient on hover */
+        transform: scale(1.05); /* Slight zoom-in effect */
+      }
+      
+      
+      
+}

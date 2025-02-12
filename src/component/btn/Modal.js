@@ -18,12 +18,12 @@ const Modal = (props) => {
 
   const values = [
     { gift: "VOUCHER 50% DỊCH VỤ LƯU TRÚ TẠI NOVAWORLD PHAN THIẾT", pct: 2 },
-    { gift: "VOUCHER 10% DỊCH VỤ LƯU TRÚ TẠI THE EMERALD GOLF VIEW", pct: 5 },
-    { gift: "Tặng Bạn 02 ly Trà Ổi Hồng", pct: 18 },
+    { gift: "VOUCHER 10% DỊCH VỤ LƯU TRÚ TẠI THE EMERALD GOLF VIEW", pct: 2 },
+    { gift: "Tặng Bạn 02 ly Trà Ổi Hồng", pct: 23 },
     { gift: "Tặng Bạn 02 ly Trà Hoa Đậu Biếc", pct: 20 },
-    { gift: "VOUCHER 20% DỊCH VỤ LƯU TRÚ TẠI NOVAWORLD PHAN THIẾT", pct: 10 },
+    { gift: "VOUCHER 20% DỊCH VỤ LƯU TRÚ TẠI NOVAWORLD PHAN THIẾT", pct: 8 },
     { gift: "Tặng Bạn 02 ly Trà Hoa Đậu Biếc", pct: 20 },
-    { gift: "VOUCHER30% DỊCH VỤ LƯU TRÚ TẠI NOVAWORLD PHAN THIẾT ", pct: 5 },
+    { gift: "VOUCHER 30% DỊCH VỤ LƯU TRÚ TẠI NOVAWORLD PHAN THIẾT ", pct: 5 },
     { gift: "Tặng Bạn 02 ly Trà Ổi Hồng", pct: 20 },
   ];
   const sliceSize = 360 / 8;
